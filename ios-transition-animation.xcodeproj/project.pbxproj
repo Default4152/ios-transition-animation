@@ -13,6 +13,7 @@
 		1345E3F221387DB700B75896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3F021387DB700B75896 /* LaunchScreen.storyboard */; };
 		1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3F92138822700B75896 /* FriendListTableViewController.swift */; };
 		1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3FC213883E100B75896 /* FriendDetailViewController.swift */; };
+		1345E3FF2138885800B75896 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1345E3F321387DB700B75896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1345E3F92138822700B75896 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
 		1345E3FC213883E100B75896 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1345E3F021387DB700B75896 /* LaunchScreen.storyboard */,
 				1345E3F321387DB700B75896 /* Info.plist */,
 				1345E3FB2138822B00B75896 /* View Controllers */,
+				1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */,
 			);
 			path = "ios-transition-animation";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1345E3FF2138885800B75896 /* NavigationControllerDelegate.swift in Sources */,
 				1345E3E821387DB600B75896 /* AppDelegate.swift in Sources */,
 				1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */,
 				1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */,

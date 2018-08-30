@@ -14,6 +14,7 @@
 		1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3F92138822700B75896 /* FriendListTableViewController.swift */; };
 		1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3FC213883E100B75896 /* FriendDetailViewController.swift */; };
 		1345E3FF2138885800B75896 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */; };
+		1345E40121388A4D00B75896 /* ImageTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E40021388A4D00B75896 /* ImageTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1345E3F92138822700B75896 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
 		1345E3FC213883E100B75896 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 		1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		1345E40021388A4D00B75896 /* ImageTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1345E3F321387DB700B75896 /* Info.plist */,
 				1345E3FB2138822B00B75896 /* View Controllers */,
 				1345E3FE2138885800B75896 /* NavigationControllerDelegate.swift */,
+				1345E40021388A4D00B75896 /* ImageTransitionAnimator.swift */,
 			);
 			path = "ios-transition-animation";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				1345E3FF2138885800B75896 /* NavigationControllerDelegate.swift in Sources */,
 				1345E3E821387DB600B75896 /* AppDelegate.swift in Sources */,
+				1345E40121388A4D00B75896 /* ImageTransitionAnimator.swift in Sources */,
 				1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */,
 				1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */,
 			);

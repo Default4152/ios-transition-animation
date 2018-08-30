@@ -15,4 +15,6 @@ class FriendDetailViewController: UIViewController {
   }
   
   
+  @IBOutlet var friendName: UILabel!
+  @IBOutlet var friendImage: UIImageView!
 }

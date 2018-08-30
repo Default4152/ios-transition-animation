@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1345E3E821387DB600B75896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3E721387DB600B75896 /* AppDelegate.swift */; };
-		1345E3EA21387DB600B75896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3E921387DB600B75896 /* ViewController.swift */; };
 		1345E3ED21387DB600B75896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3EB21387DB600B75896 /* Main.storyboard */; };
 		1345E3EF21387DB700B75896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3EE21387DB700B75896 /* Assets.xcassets */; };
 		1345E3F221387DB700B75896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3F021387DB700B75896 /* LaunchScreen.storyboard */; };
+		1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3F92138822700B75896 /* FriendListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1345E3E421387DB600B75896 /* ios-transition-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-transition-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345E3E721387DB600B75896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1345E3E921387DB600B75896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1345E3EC21387DB600B75896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1345E3EE21387DB700B75896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1345E3F121387DB700B75896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1345E3F321387DB700B75896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1345E3F92138822700B75896 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +55,21 @@
 			isa = PBXGroup;
 			children = (
 				1345E3E721387DB600B75896 /* AppDelegate.swift */,
-				1345E3E921387DB600B75896 /* ViewController.swift */,
 				1345E3EB21387DB600B75896 /* Main.storyboard */,
 				1345E3EE21387DB700B75896 /* Assets.xcassets */,
 				1345E3F021387DB700B75896 /* LaunchScreen.storyboard */,
 				1345E3F321387DB700B75896 /* Info.plist */,
+				1345E3FB2138822B00B75896 /* View Controllers */,
 			);
 			path = "ios-transition-animation";
+			sourceTree = "<group>";
+		};
+		1345E3FB2138822B00B75896 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1345E3F92138822700B75896 /* FriendListTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1345E3EA21387DB600B75896 /* ViewController.swift in Sources */,
 				1345E3E821387DB600B75896 /* AppDelegate.swift in Sources */,
+				1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

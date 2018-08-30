@@ -124,10 +124,6 @@ class ImageTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning {
   
   func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
     guard let isPush = isPush else { return }
-    if isPush {
-      push(using: transitionContext)
-    } else {
-      pop(using: transitionContext)
-    }
+    isPush ? push(using: transitionContext) : pop(using: transitionContext)
   }
 }

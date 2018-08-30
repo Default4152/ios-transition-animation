@@ -10,12 +10,19 @@ import UIKit
 
 class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
   func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-    let imageTransitionAnimator = ImageTransitionAnimator()
     
+    let imageTransitionAnimator = ImageTransitionAnimator()
     imageTransitionAnimator.friendListName = sourceCell?.textLabel
     imageTransitionAnimator.friendListImage = sourceCell?.imageView
-    
-    return imageTransitionAnimator
+
+    if operation == .push {
+      imageTransitionAnimator.isPush = true
+      return imageTransitionAnimator
+    } else {
+      imageTransitionAnimator.isPush = false
+      return imageTransitionAnimator
+    }
+
   }
   
   var sourceCell: UITableViewCell?

@@ -9,8 +9,14 @@
 import UIKit
 
 class NavigationControllerDelegate: NSObject, UINavigationControllerDelegate {
-//  func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-//  }
+  func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    let imageTransitionAnimator = ImageTransitionAnimator()
+    
+    imageTransitionAnimator.friendListName = sourceCell?.textLabel
+    imageTransitionAnimator.friendListImage = sourceCell?.imageView
+    
+    return imageTransitionAnimator
+  }
   
   var sourceCell: UITableViewCell?
 }

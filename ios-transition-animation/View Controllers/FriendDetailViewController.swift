@@ -8,13 +8,18 @@
 
 import UIKit
 
-class FriendDetailViewController: UIViewController {
+class FriendDetailViewController: UIViewController, UIViewControllerTransitioningDelegate {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    transitioningDelegate = self
   }
   
+  func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return imageTransitionAnimator
+  }
   
+  let imageTransitionAnimator = ImageTransitionAnimator()
   @IBOutlet var friendName: UILabel!
   @IBOutlet var friendImage: UIImageView!
 }

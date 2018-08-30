@@ -8,10 +8,12 @@
 
 import UIKit
 
-class FriendListTableViewController: UITableViewController {
+class FriendListTableViewController: UITableViewController, UIViewControllerTransitioningDelegate {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+
+    self.navigationController?.delegate = navigationControllerDelegate
   }
 
   // MARK: - Table view data source
@@ -19,10 +21,18 @@ class FriendListTableViewController: UITableViewController {
     return 1
   }
 
-
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "FriendCell", for: indexPath)
-
+    
     return cell
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      segue.destination.transitioningDelegate = self
+      if let indexPath = self.tableView.indexPathForSelectedRow {
+        self.navigationControllerDelegate.sourceCell = self.tableView.cellForRow(at: indexPath)
+      }
+  }
+  
+  let navigationControllerDelegate = NavigationControllerDelegate()
 }

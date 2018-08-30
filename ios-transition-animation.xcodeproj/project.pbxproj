@@ -12,6 +12,7 @@
 		1345E3EF21387DB700B75896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3EE21387DB700B75896 /* Assets.xcassets */; };
 		1345E3F221387DB700B75896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1345E3F021387DB700B75896 /* LaunchScreen.storyboard */; };
 		1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3F92138822700B75896 /* FriendListTableViewController.swift */; };
+		1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E3FC213883E100B75896 /* FriendDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1345E3F121387DB700B75896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1345E3F321387DB700B75896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1345E3F92138822700B75896 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
+		1345E3FC213883E100B75896 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				1345E3F92138822700B75896 /* FriendListTableViewController.swift */,
+				1345E3FC213883E100B75896 /* FriendDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				1345E3E821387DB600B75896 /* AppDelegate.swift in Sources */,
 				1345E3FA2138822700B75896 /* FriendListTableViewController.swift in Sources */,
+				1345E3FD213883E100B75896 /* FriendDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
